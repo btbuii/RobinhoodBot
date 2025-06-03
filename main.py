@@ -7,7 +7,7 @@ from datetime import datetime
 from discord import app_commands
 
 """| INITIALIZATION |"""
-MY_GUILD = discord.Object(id = 1060004724113408010)
+MY_GUILD = discord.Object(id = ID)
 
 class MyClient(discord.Client):
     def __init__(self, *, intents: discord.Intents):
